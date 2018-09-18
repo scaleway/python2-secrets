@@ -1,6 +1,11 @@
 ChangeLog
 =========
 
+1.0.2 (2018-08-18)
+------------------
+
+* Set lower version to 2.7.7 for compare_digest import
+
 1.0.1 (2018-08-18)
 ------------------
 
