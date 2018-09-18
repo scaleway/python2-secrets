@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 # Emulates __all__ for Python2
 from secrets import (
