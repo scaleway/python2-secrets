@@ -29,8 +29,8 @@ import base64
 import binascii
 
 
-# hmac.compare_digest did appear in python 2.7
-if sys.version_info >= (2, 7):
+# hmac.compare_digest did appear in python 2.7.7
+if sys.version_info >= (2, 7, 7):
     from hmac import compare_digest
 else:
     # If we use an older python version, we will define an equivalent method
