@@ -20,18 +20,26 @@ __all__ = ['choice', 'randbelow', 'randbits', 'SystemRandom',
 
            ]
 
-
+import os
+import sys
+from random import SystemRandom
 
 import base64
 
 import binascii
 
-import os
 
-
-from hmac import compare_digest
-
-from random import SystemRandom
+# hmac.compare_digest did appear in python 2.7
+if sys.version_info >= (2, 7):
+    from hmac import compare_digest
+else:
+    # If we use an older python version, we will define an equivalent method
+    def compare_digest(a, b):
+        """Compatibility compare_digest method for python < 2.7.
+        This method is NOT cryptographically secure and may be subject to
+        timing attacks, see https://docs.python.org/2/library/hmac.html
+        """
+        return a == b
 
 
 _sysrand = SystemRandom()
