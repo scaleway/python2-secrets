@@ -4,7 +4,7 @@
 __version__ = "1.0.4"
 
 # Emulates __all__ for Python2
-from secrets import (
+from .secrets import (
     choice,
     randbelow,
     randbits,
