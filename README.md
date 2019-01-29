@@ -1,4 +1,4 @@
 # Secrets backport
 
-Backported python3 [secrets](https://hg.python.org/cpython/file/3.6/Lib/secrets.py) module for python2.7
+Backport of Python 3.6's [secrets](https://docs.python.org/3/library/secrets.html) module for Python 2.7, 3.4 and 3.5.
 

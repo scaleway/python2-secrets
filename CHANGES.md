@@ -4,7 +4,7 @@ ChangeLog
 1.0.5 (unreleased)
 ------------------
 
-* Not yet.
+* Explicit Python 3.4 and 3.5 support in setup.py and README.
 
 1.0.4 (2018-11-16)
 ------------------
