@@ -1,7 +1,7 @@
 ChangeLog
 =========
 
-1.0.5 (unreleased)
+1.0.5 (2019-01-29)
 ------------------
 
 * Explicit Python 3.4 and 3.5 support in setup.py and README.
