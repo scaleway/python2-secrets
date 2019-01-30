@@ -48,7 +48,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Intended Audience :: Information Technology',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         # List of python versions and their support status:
         # https://en.wikipedia.org/wiki/CPython#Version_history
