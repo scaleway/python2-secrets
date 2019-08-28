@@ -2,3 +2,4 @@ include CHANGES.md
 include README.md
 include MANIFEST.in
 include setup.cfg
+include LICENSE
